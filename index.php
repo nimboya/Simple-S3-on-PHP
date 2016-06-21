@@ -1,7 +1,7 @@
 <?php
-$access_key         = "AKIAJKIZPDXHEAGJSKGA"; //Access Key
-$secret_key         = "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"; //Secret Key
-$my_bucket          = "terragontest"; //bucket name
+$access_key         = ""; //Access Key
+$secret_key         = ""; //Secret Key
+$my_bucket          = ""; //bucket name
 $region             = "eu-west-1"; //bucket region
 $success_redirect   = 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; //URL to which the client is redirected upon success (currently self) 
 $allowd_file_size   = "1048579"; //1 MB allowed Size
